@@ -1,0 +1,24 @@
+{
+  "name": "Game",
+  "className": "DataModel",
+  "children": [
+    {
+      "name": "ReplicatedStorage",
+      "className": "ReplicatedStorage",
+      "children": [
+        {
+          "name": "Raycer",
+          "className": "ModuleScript",
+          "filePaths": ["sync/ReplicatedStorage/Raycer.luau"],
+          "children": [
+            {
+              "name": "DefaultConfig",
+              "className": "ModuleScript",
+              "filePaths": ["sync/ReplicatedStorage/Raycer/DefaultConfig.luau"]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
